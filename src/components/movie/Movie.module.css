@@ -44,6 +44,11 @@
     font-family: 'Montserrat';
     display: flex;
     justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.episodes_header button {
+    cursor: pointer;
 }
 
 .episodes_header h3 {
@@ -62,14 +67,23 @@
     margin-left: 1em;
 }
 
-.episode {
+.episodes {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    row-gap: 1.5em;
+}
+
+.episode {
+    display: grid;
+    grid-template-columns: .2fr .8fr 3fr;
+}
+
+.episode h3 {
+    font-weight: 500;
 }
 
 .episode img {
-    margin-right: 1em;
-    object-fit: contain;
+    object-fit: cover;
     width: 150px;
     height: 140px;
 }

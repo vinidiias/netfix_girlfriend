@@ -4,8 +4,11 @@
 }
 
 .header {
+    align-self: flex-end;
+    padding: 1em 2em;
     position: absolute;
     width: 100%;
+    margin-bottom: 2em;
 }
 
 .logo {
