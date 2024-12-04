@@ -1,35 +1,14 @@
 import styles from './Movie.module.css'
 import netflix_logo from '../../img/netflix_logo.png'
-import { FaInfinity } from "react-icons/fa6";
-import { FaPlay } from "react-icons/fa";
-import { IoIosAddCircleOutline } from "react-icons/io";
-import { SiNetflix } from "react-icons/si";
-import { AiOutlineLike } from "react-icons/ai";
 import { BsBadgeHd } from "react-icons/bs";
 import { FaAd } from "react-icons/fa";
 import { IoIosWarning } from "react-icons/io";
+import Header from '../layout/Header';
 
 const Movie = () => {
     return (
       <div className={styles.movie_container}>
-        <div className={styles.header}>
-          <div className={styles.logo}>
-            <SiNetflix />
-            <p>SÉRIES</p>
-          </div>
-          <div className={styles.title}>
-            <h1>NOSSA HISTÓRIA</h1>
-          </div>
-          <div className={styles.progress}>
-            <hr />
-            <p>10 de <FaInfinity/> meses</p>
-          </div>
-          <div className={styles.btns}>
-            <button><FaPlay/> Assistir</button>
-            <IoIosAddCircleOutline />
-            <AiOutlineLike />
-          </div>
-        </div>
+        <Header />
         <div className={styles.content}>
             <div className={styles.content_left}>
                 <div className={styles.infos}>
@@ -53,6 +32,9 @@ const Movie = () => {
                  <p>Cenas e momentos: <span>Emocionantes, românticos</span></p>
                 </div>
             </div>
+        </div>
+        <div className={styles.episodes}>
+
         </div>
       </div>
     );
