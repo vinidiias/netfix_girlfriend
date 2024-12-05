@@ -1,9 +1,13 @@
 import styles from './Episode.module.css'
 
-const Episode = ({ index, title, duration, description, photo }) => {
-  console.log(photo)
+const Episode = ({ index, title, duration, description, photo, navigate }) => {
+
+    const navigateHandler = () => {
+      navigate(index)
+    }
+
     return (
-      <div className={styles.episode}>
+      <div className={styles.episode} onClick={navigateHandler}>
         <h3>{index}</h3>
         <img src={photo} alt="" />
         <div className={styles.infoEpisode}>

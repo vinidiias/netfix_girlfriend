@@ -3,7 +3,7 @@ import { BsBadgeHd } from "react-icons/bs";
 import { FaAd } from "react-icons/fa";
 import { IoIosWarning } from "react-icons/io"
 
-const ContentHeader = () => {
+const ContentHeader = ({ ep, title, description }) => {
     return (
         <div className={styles.content_header}>
         <div className={styles.content_left}>
@@ -20,8 +20,8 @@ const ContentHeader = () => {
                 <p>Contém muito amor</p>
             </div>
             <div className={styles.description}>
-                <h3><span>T1:E1</span> "29 de setembro"</h3>
-                <p>O início... O rolê onde tudo começou, mal sabíamos que a vida nos uniria e que iríamos nos amar.</p>
+                <h3><span>T1:{ep}</span> "{title}"</h3>
+                <p>{description}</p>
             </div>
         </div>
         <div className={styles.content_right}>

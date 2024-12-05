@@ -14,8 +14,12 @@ import Header from '../layout/Header';
 import ContentHeader from '../layout/ContentHeader';
 import Episode from '../episode/Episode';
 import { GoTriangleDown } from "react-icons/go";
+import { useNavigate, useParams } from 'react-router-dom'
 
 const Movie = () => {
+  const { id } = useParams()
+  const navigate = useNavigate()
+
   const episodes = [
     {
       imgPath: foto0,
@@ -95,15 +99,29 @@ const Movie = () => {
         "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
     }
   ]
+  
+  const img = id ? episodes[id].imgPath : euyminhavida
+  const ep = id ? id : 0
+  const title = id ? episodes[id].title : episodes[0].title
+  const description = id ? episodes[id].description : episodes[0].title
+
+
+  const navigateHandler = (id) => {
+    navigate(`/movie/${id}`)
+  }
 
     return (
       <div className={styles.movie_container}>
         <div className={styles.img_container}>
-          <img src={euyminhavida} alt="" />
+          <img src={img} alt="" />
           <Header />
         </div>
         <div className={styles.container}>
-          <ContentHeader />
+          <ContentHeader
+           ep={ep}
+           title={title}
+           description={description}
+          />
           <div className={styles.episodes_container}>
             <div className={styles.episodes_header}>
               <h3>Episódios</h3>
@@ -113,15 +131,15 @@ const Movie = () => {
             </div>
             <div className={styles.episodes}>
               {episodes.map((episode, index) => (
-                <>
                   <Episode
+                    navigate={navigateHandler}
+                    key={index}
                     index={index}
                     title={episode.title}
                     duration={episode.duration}
                     description={episode.description}
                     photo={episode.imgPath}
                   />
-                </>
               ))}
             </div>
           </div>
