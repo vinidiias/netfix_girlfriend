@@ -1,0 +1,65 @@
+.episode {
+    display: grid;
+    grid-template-columns: .2fr .8fr 3fr;
+    align-items: center;
+}
+
+.episode h3 {
+    font-weight: 500;
+}
+
+.episode img {
+    object-fit: cover;
+    width: 150px;
+    height: 140px;
+}
+
+@media(max-width: 900px) {
+    .episode {
+        grid-template-columns: .2fr 1.2fr 3fr;
+
+    }
+
+    .episode img {
+        object-fit: cover;
+        width: 140px;
+        height: 130px;
+    }
+}
+
+@media(max-width: 700px) {
+    .episode {
+        grid-template-columns: .2fr 1.4fr 3fr;
+
+    }
+
+    .episode img {
+        object-fit: cover;
+        width: 135px;
+        height: 125px;
+    }
+}
+
+.infoEpisode {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    row-gap: .5em;
+    color: rgb(207, 207, 207);
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.title h3 {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.infoEpisode p {
+    font-size: .9em;
+    font-weight: 400;
+}

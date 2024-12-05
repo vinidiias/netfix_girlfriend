@@ -1,40 +1,130 @@
 import styles from './Movie.module.css'
-import netflix_logo from '../../img/netflix_logo.png'
-import { BsBadgeHd } from "react-icons/bs";
-import { FaAd } from "react-icons/fa";
-import { IoIosWarning } from "react-icons/io";
+import euyminhavida from '../../img/euyminhavida.jpeg'
+import foto0 from '../../img/foto0.jpeg'
+import foto1 from '../../img/foto1.jpeg'
+import foto2 from '../../img/foto2.jpeg'
+import foto3 from '../../img/foto3.jpeg'
+import foto4 from '../../img/foto4.jpeg'
+import foto5 from '../../img/foto5.jpeg'
+import foto6 from '../../img/foto6.jpeg'
+import foto7 from '../../img/foto7.jpeg'
+import foto8 from '../../img/foto8.jpeg'
+import foto9 from '../../img/foto9.jpeg'
 import Header from '../layout/Header';
+import ContentHeader from '../layout/ContentHeader';
+import Episode from '../episode/Episode';
+import { GoTriangleDown } from "react-icons/go";
 
 const Movie = () => {
+  const episodes = [
+    {
+      imgPath: foto0,
+      title: "O início",
+      duration: "30 min",
+      description:
+        "O início... O rolê onde tudo começou, aqui mal sabíamos que a vida nos uniria e que seriamos a vida um do outro.",
+    },
+    {
+      imgPath: foto1,
+      title: "1 mês",
+      duration: "30 min",
+      description:
+        "O início... O rolê onde tudo começou, mal sabíamos que a vida nos uniria e que iríamos nos amar..",
+    },
+    {
+      imgPath: foto2,
+      title: "2 mês",
+      duration: "30 min",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+    },
+    {
+      imgPath: foto3,
+      title: "3 mês",
+      duration: "30 min",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+    },
+    {
+      imgPath: foto4,
+      title: "4 mês",
+      duration: "30 min",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+    },
+    {
+      imgPath: foto5,
+      title: "5 mês",
+      duration: "30 min",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+    },
+    {
+      imgPath: foto6,
+      title: "6 mês",
+      duration: "30 min",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+    },
+    {
+      imgPath: foto7,
+      title: "7 mês",
+      duration: "30 min",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+    },
+    {
+      imgPath: foto8,
+      title: "8 mês",
+      duration: "30 min",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+    },
+    {
+      imgPath: foto9,
+      title: "9 mês",
+      duration: "30 min",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+    },
+    {
+      imgPath: "../img/foto1.jpeg",
+      title: "10 mês",
+      duration: "30 min",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+    }
+  ]
+
     return (
       <div className={styles.movie_container}>
-        <Header />
-        <div className={styles.content}>
-            <div className={styles.content_left}>
-                <div className={styles.infos}>
-                    <p>2024 Minissérie</p>
-                    <BsBadgeHd />
-                    <FaAd />
-                </div>
-                <div className={styles.warning}>
-                    <IoIosWarning />
-                    <p>Contém muito amor</p>
-                </div>
-                <div className={styles.description}>
-                    <h3><span>T1:E1</span> "29 de setembro"</h3>
-                    <p>O início... O rolê onde tudo começou, mal sabíamos que a vida nos uniria e que iríamos nos amar.</p>
-                </div>
-            </div>
-            <div className={styles.content_right}>
-                <div className={styles.elencos}>
-                 <p>Elenco: <span>Vinícius Dias, Camilli Peixoto</span></p>
-                 <p>Gênero:<span> Romântico, Brasileiros, Documentários</span></p>
-                 <p>Cenas e momentos: <span>Emocionantes, românticos</span></p>
-                </div>
-            </div>
+        <div className={styles.img_container}>
+          <img src={euyminhavida} alt="" />
+          <Header />
         </div>
-        <div className={styles.episodes}>
-
+        <div className={styles.container}>
+          <ContentHeader />
+          <div className={styles.episodes_container}>
+            <div className={styles.episodes_header}>
+              <h3>Episódios</h3>
+              <button>
+                Temporada 1 <GoTriangleDown />
+              </button>
+            </div>
+            <div className={styles.episodes}>
+              {episodes.map((episode, index) => (
+                <>
+                  <Episode
+                    index={index}
+                    title={episode.title}
+                    duration={episode.duration}
+                    description={episode.description}
+                    photo={episode.imgPath}
+                  />
+                </>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     );

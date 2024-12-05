@@ -1,10 +1,38 @@
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('../../fonts/BebasNeue.otf')
+}
+
+@media (max-width: 900px) {
+    .header .logo p {
+        font-size: 8px;
+    }
+
+    .header .title h1 {
+        font-size: 2.5em;
+    }
+
+    .header .btns button {
+        font-size: .9em;
+    }
+
+    .header .btns > svg {
+        font-size: 1.8em;
+    }
+}
+
 .header {
+    align-self: flex-end;
+    padding: 1em 2em;
+    position: absolute;
     width: 100%;
+    margin-bottom: 2em;
 }
 
 .logo {
     display: flex;
-    column-gap: 5px;
+    align-items: end;
+    column-gap: 2px;
 }
 
 .logo svg {
@@ -12,7 +40,7 @@
 }
 
 .logo p {
-    font-size: 12px;
+    font-size: 9px;
     letter-spacing: 4px;
 }
 
@@ -22,6 +50,7 @@
 }
 
 .title h1 {
+    font-family: 'MinhaFonte';
     font-size: 3em;
     font-weight: 100;
 }
@@ -44,6 +73,13 @@
     display: flex;
     align-items: center;
     margin-bottom: .5em;
+}
+
+.progress p {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
 }
 
 .btns {
