@@ -36,63 +36,63 @@ const Movie = () => {
       title: "2 mês",
       duration: "30 min",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
     },
     {
       imgPath: foto3,
       title: "3 mês",
       duration: "30 min",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
     },
     {
       imgPath: foto4,
       title: "4 mês",
       duration: "30 min",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
     },
     {
       imgPath: foto5,
       title: "5 mês",
       duration: "30 min",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
     },
     {
       imgPath: foto6,
       title: "6 mês",
       duration: "30 min",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
     },
     {
       imgPath: foto7,
       title: "7 mês",
       duration: "30 min",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
     },
     {
       imgPath: foto8,
       title: "8 mês",
       duration: "30 min",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
     },
     {
       imgPath: foto9,
       title: "9 mês",
       duration: "30 min",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
     },
     {
       imgPath: "../img/foto1.jpeg",
       title: "10 mês",
       duration: "30 min",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
     }
   ]
 
