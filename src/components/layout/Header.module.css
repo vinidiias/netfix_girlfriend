@@ -3,6 +3,24 @@
     src: url('../../fonts/BebasNeue.otf')
 }
 
+@media (max-width: 900px) {
+    .header .logo p {
+        font-size: 8px;
+    }
+
+    .header .title h1 {
+        font-size: 2.5em;
+    }
+
+    .header .btns button {
+        font-size: .9em;
+    }
+
+    .header .btns > svg {
+        font-size: 1.8em;
+    }
+}
+
 .header {
     align-self: flex-end;
     padding: 1em 2em;

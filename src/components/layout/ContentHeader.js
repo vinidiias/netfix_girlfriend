@@ -8,7 +8,7 @@ const ContentHeader = () => {
         <div className={styles.content_header}>
         <div className={styles.content_left}>
             <div className={styles.infos}>
-                <p>2024 Minissérie</p>
+                <p>2024 Série</p>
                 <BsBadgeHd />
                 <FaAd />
             </div>

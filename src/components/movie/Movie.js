@@ -1,6 +1,15 @@
 import styles from './Movie.module.css'
 import euyminhavida from '../../img/euyminhavida.jpeg'
+import foto0 from '../../img/foto0.jpeg'
 import foto1 from '../../img/foto1.jpeg'
+import foto2 from '../../img/foto2.jpeg'
+import foto3 from '../../img/foto3.jpeg'
+import foto4 from '../../img/foto4.jpeg'
+import foto5 from '../../img/foto5.jpeg'
+import foto6 from '../../img/foto6.jpeg'
+import foto7 from '../../img/foto7.jpeg'
+import foto8 from '../../img/foto8.jpeg'
+import foto9 from '../../img/foto9.jpeg'
 import Header from '../layout/Header';
 import ContentHeader from '../layout/ContentHeader';
 import Episode from '../episode/Episode';
@@ -9,63 +18,70 @@ import { GoTriangleDown } from "react-icons/go";
 const Movie = () => {
   const episodes = [
     {
+      imgPath: foto0,
+      title: "O início",
+      duration: "30 min",
+      description:
+        "O início... O rolê onde tudo começou, aqui mal sabíamos que a vida nos uniria e que seriamos a vida um do outro.",
+    },
+    {
       imgPath: foto1,
       title: "1 mês",
       duration: "30 min",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "O início... O rolê onde tudo começou, mal sabíamos que a vida nos uniria e que iríamos nos amar..",
     },
     {
-      imgPath: foto1,
+      imgPath: foto2,
       title: "2 mês",
       duration: "30 min",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
     },
     {
-      imgPath: foto1,
+      imgPath: foto3,
       title: "3 mês",
       duration: "30 min",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
     },
     {
-      imgPath: foto1,
+      imgPath: foto4,
       title: "4 mês",
       duration: "30 min",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
     },
     {
-      imgPath: foto1,
+      imgPath: foto5,
       title: "5 mês",
       duration: "30 min",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
     },
     {
-      imgPath: foto1,
+      imgPath: foto6,
       title: "6 mês",
       duration: "30 min",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
     },
     {
-      imgPath: foto1,
+      imgPath: foto7,
       title: "7 mês",
       duration: "30 min",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
     },
     {
-      imgPath: foto1,
+      imgPath: foto8,
       title: "8 mês",
       duration: "30 min",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex quam fuga cum. Dolor possimus mollitia nemo ratione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
     },
     {
-      imgPath: foto1,
+      imgPath: foto9,
       title: "9 mês",
       duration: "30 min",
       description:

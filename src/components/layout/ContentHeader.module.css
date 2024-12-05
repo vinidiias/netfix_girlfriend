@@ -1,6 +1,31 @@
+@media(max-width: 900px) {
+    .content_left .description > h3 {
+        font-size: 1em;
+    }
+    .content_left .description > p {
+        font-size: .9em;
+    }
+
+}
+
+@media(max-width: 700px) {
+    .content_left .description > h3 {
+        font-size: .9em;
+    }
+
+    .content_left .description > p {
+        font-size: .8em;
+    }
+
+    .content_right .elencos {
+        font-size: .7em;
+    } 
+
+}
+
 .content_header {
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: space-between;
     font-family: 'Montserrat';
 }
@@ -28,10 +53,11 @@
     font-size: .8em;
     font-weight: 400;
     column-gap: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 .warning svg {
+    color: yellow;
     font-size: 1.5em;
 }
 
