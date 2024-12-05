@@ -40,6 +40,25 @@
     }
 }
 
+@media(max-width: 532px) {
+    .episode {
+        grid-template-columns: .2fr 1.7fr 3fr;
+
+    }
+}
+
+@media(max-width: 480px) {
+    .episode {
+        grid-template-columns: .2fr 2fr 3fr;
+    }
+
+    .episode img {
+        object-fit: cover;
+        width: 120px;
+        height: 110px;
+    }
+}
+
 .infoEpisode {
     display: flex;
     flex-direction: column;

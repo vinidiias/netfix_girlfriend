@@ -3,6 +3,14 @@
     src: url('../../fonts/BebasNeue.otf')
 }
 
+.header {
+    align-self: flex-end;
+    padding: 1em 2em;
+    position: absolute;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
 @media (max-width: 900px) {
     .header .logo p {
         font-size: 8px;
@@ -21,12 +29,51 @@
     }
 }
 
-.header {
-    align-self: flex-end;
-    padding: 1em 2em;
-    position: absolute;
-    width: 100%;
-    margin-bottom: 2em;
+@media (max-width: 550px) {
+    .header .logo p {
+        font-size: 7px;
+    }
+
+    .header .title h1 {
+        font-size: 2em;
+    }
+
+    .header .btns button {
+        font-size: .8em;
+    }
+
+    .header .btns > svg {
+        font-size: 1.6em;
+    }
+
+    .header .progress p {
+        font-size: .8em;
+    }
+}
+
+@media (max-width: 460px) {
+    .header .logo svg {
+        font-size: .9em;
+    }
+    .header .logo p {
+        font-size: 7px;
+    }
+
+    .header .title h1 {
+        font-size: 1.8em;
+    }
+
+    .header .btns button {
+        font-size: .77em;
+    }
+
+    .header .btns > svg {
+        font-size: 1.5em;
+    }
+
+    .header .progress p {
+        font-size: .77em;
+    }
 }
 
 .logo {

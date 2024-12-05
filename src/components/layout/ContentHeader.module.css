@@ -23,6 +23,33 @@
 
 }
 
+@media(max-width: 480px) {
+    .content_header {
+        column-gap: 1em;
+    }
+
+    .content_left .description > h3 {
+        font-size: .9em;
+    }
+
+    .content_left .description > p {
+        font-size: .8em;
+    }
+
+    .content_right .elencos {
+        font-size: .7em;
+    } 
+}
+
+@media(max-width: 480px) {
+    .content_right .infos {
+        column-gap: 0px
+    } 
+    .content_right .infos p {
+        word-spacing: 0px;
+    } 
+}
+
 .content_header {
     display: flex;
     align-items: top;
