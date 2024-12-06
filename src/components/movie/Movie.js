@@ -108,6 +108,7 @@ const Movie = () => {
 
   const navigateHandler = (id) => {
     navigate(`/movie/${id}`)
+    window.location.reload()
   }
 
     return (

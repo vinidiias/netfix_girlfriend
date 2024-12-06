@@ -1,16 +1,13 @@
 import { useState } from 'react'
 import styles from './Episode.module.css'
-import { useEffect } from 'react'
 
 const Episode = ({ index, title, duration, description, photo, navigate, id }) => {
    
-
-    const navigateHandler = () => {
+    const navigateHandler = () => {  
       navigate(index)
     }
 
     const isSelected = parseInt(id) === index ? 'selected' : '';
-
 
     const [over, setOver] = useState('')
 
