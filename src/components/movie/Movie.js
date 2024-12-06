@@ -103,7 +103,7 @@ const Movie = () => {
   const img = id ? episodes[id].imgPath : euyminhavida
   const ep = id ? id : 0
   const title = id ? episodes[id].title : episodes[0].title
-  const description = id ? episodes[id].description : episodes[0].title
+  const description = id ? episodes[id].description : episodes[0].description
 
 
   const navigateHandler = (id) => {
@@ -132,6 +132,7 @@ const Movie = () => {
             <div className={styles.episodes}>
               {episodes.map((episode, index) => (
                   <Episode
+                    id={id}
                     navigate={navigateHandler}
                     key={index}
                     index={index}
