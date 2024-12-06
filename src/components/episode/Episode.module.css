@@ -82,3 +82,12 @@
     font-size: .9em;
     font-weight: 400;
 }
+
+.selected {
+    background-color: #353535;
+}
+
+.over {
+    background-color: #303030;
+}
+

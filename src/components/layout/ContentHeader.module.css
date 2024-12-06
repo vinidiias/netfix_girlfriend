@@ -75,8 +75,8 @@
 
 .content_header {
     display: flex;
-    align-items: top;
     justify-content: space-between;
+    width: 100%;
     font-family: 'Montserrat';
 }
 
