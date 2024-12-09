@@ -8,10 +8,21 @@
     font-weight: 500;
 }
 
-.episode img {
+.img {
+    display: flex;
+    position: relative;
+}
+
+.img img {
     object-fit: cover;
     width: 150px;
     height: 140px;
+}
+
+.img svg {
+    margin-top: 10px;
+    position: absolute;
+    color: red;
 }
 
 @media(max-width: 900px) {
@@ -20,7 +31,7 @@
 
     }
 
-    .episode img {
+    .episode .img img {
         object-fit: cover;
         width: 140px;
         height: 130px;
@@ -33,7 +44,7 @@
 
     }
 
-    .episode img {
+    .episode .img img {
         object-fit: cover;
         width: 135px;
         height: 125px;
@@ -52,7 +63,7 @@
         grid-template-columns: .2fr 2fr 3fr;
     }
 
-    .episode img {
+    .episode .img img {
         object-fit: cover;
         width: 120px;
         height: 110px;

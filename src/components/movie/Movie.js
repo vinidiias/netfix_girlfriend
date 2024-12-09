@@ -33,7 +33,7 @@ const Movie = () => {
       title: "1 mês",
       duration: "30 min",
       description:
-        "O início... O rolê onde tudo começou, mal sabíamos que a vida nos uniria e que iríamos nos amar..",
+        "Um mês de muito amor, treinos e idas ao janela. Aqui já nos amavámos muitos um ao outro e começamos a comer sushi juntos.",
     },
     {
       imgPath: foto2,
