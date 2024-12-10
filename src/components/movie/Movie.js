@@ -40,35 +40,35 @@ const Movie = () => {
       title: "2 mês",
       duration: "30 min",
       description:
-        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "Aqui você operou o siso virando o fofão e tive que cuidar da minha vida quase o mês todo, mas fomos ao show do cover de system na casa urbana.",
     },
     {
       imgPath: foto3,
       title: "3 mês",
       duration: "30 min",
       description:
-        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "Um mês legal e tranquilo, fomos passear em med city com a sogra, treinamos bastante e teve pizz e chopp na academia, very good.",
     },
     {
       imgPath: foto4,
       title: "4 mês",
       duration: "30 min",
       description:
-        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "Passamos alguns dias de casados enquanto os sogros viajavam e também assistimos divertidamente no carro com pizza  pra comemorar minha bolsa.",
     },
     {
       imgPath: foto5,
       title: "5 mês",
       duration: "30 min",
       description:
-        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "Mês que minha vida operou e tive que cuidar novamente dela, mas aproveitamos antes indo almoçar no py e fomos à festa junina da rino.",
     },
     {
       imgPath: foto6,
       title: "6 mês",
       duration: "30 min",
       description:
-        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "Muitos vinhos e comemos yakisoba e muito sushi no nosso dia e batemos um strogonoff no ru nuu.",
     },
     {
       imgPath: foto7,
