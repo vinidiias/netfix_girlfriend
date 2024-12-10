@@ -10,6 +10,7 @@ import foto6 from '../../img/foto6.jpeg'
 import foto7 from '../../img/foto7.jpeg'
 import foto8 from '../../img/foto8.jpeg'
 import foto9 from '../../img/foto9.jpeg'
+import foto10 from '../../img/foto10.jpeg'
 import Header from '../layout/Header';
 import ContentHeader from '../layout/ContentHeader';
 import Episode from '../episode/Episode';
@@ -33,70 +34,70 @@ const Movie = () => {
       title: "1 mês",
       duration: "30 min",
       description:
-        "O início... O rolê onde tudo começou, mal sabíamos que a vida nos uniria e que iríamos nos amar..",
+        "Um mês de muito amor, treinos e idas ao janela. Aqui já nos amavámos muitos um ao outro e começamos a comer sushi juntos.",
     },
     {
       imgPath: foto2,
       title: "2 mês",
       duration: "30 min",
       description:
-        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "Aqui você operou o siso virando o fofão e tive que cuidar da minha vida quase o mês todo, mas fomos ao show do cover de system na casa urbana.",
     },
     {
       imgPath: foto3,
       title: "3 mês",
       duration: "30 min",
       description:
-        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "Um mês legal e tranquilo, fomos passear em med city com a sogra, treinamos bastante e teve pizz e chopp na academia, very good.",
     },
     {
       imgPath: foto4,
       title: "4 mês",
       duration: "30 min",
       description:
-        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "Passamos alguns dias de casados enquanto os sogros viajavam e também assistimos divertidamente no carro com pizza  pra comemorar minha bolsa.",
     },
     {
       imgPath: foto5,
       title: "5 mês",
       duration: "30 min",
       description:
-        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "Mês que minha vida operou e tive que cuidar novamente dela, mas aproveitamos antes indo almoçar no py e fomos à festa junina da rino.",
     },
     {
       imgPath: foto6,
       title: "6 mês",
       duration: "30 min",
       description:
-        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "Muitos vinhos e comemos yakisoba e muito sushi no nosso dia e batemos um strogonoff no ru nuu.",
     },
     {
       imgPath: foto7,
       title: "7 mês",
       duration: "30 min",
       description:
-        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "Mês muito bom, saímos bastante juntos, jóiamos e tudo mais. Te amo <3...",
     },
     {
       imgPath: foto8,
       title: "8 mês",
       duration: "30 min",
       description:
-        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "Te levei pra conhecer o sudacas bar pra julgarmos e foi legal e estávamos bem felizes pelo meu estágio e por comprarmos nossa primeira viagem juntos. Te amo de novo",
     },
     {
       imgPath: foto9,
       title: "9 mês",
       duration: "30 min",
       description:
-        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "Pouco tenso mas sempre unidos do jeito que somos. Nos divertimos na cachu também. Te amo minha vida",
     },
     {
-      imgPath: "../img/foto1.jpeg",
+      imgPath: foto10,
       title: "10 mês",
       duration: "30 min",
       description:
-        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "Estamos aqui hoje completando 10 meses juntos e quero que saiba que sempre te amarei. Obrigado por ser essa pessoa maravilhosa comigo, você me fala um homem muito mais feliz e amado. Te amo muito muito muito my lover",
     }
   ]
   

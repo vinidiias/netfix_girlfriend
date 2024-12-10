@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import styles from './Episode.module.css'
+import { SiNetflix } from "react-icons/si";
+
 
 const Episode = ({ index, title, duration, description, photo, navigate, id }) => {
    
@@ -19,7 +21,10 @@ const Episode = ({ index, title, duration, description, photo, navigate, id }) =
         onMouseLeave={() => setOver('')}
       >
         <h3>{index}</h3>
-        <img src={photo} alt="" />
+        <div className={styles.img}>
+          <img src={photo} alt="" />
+          <SiNetflix />
+        </div>
         <div className={styles.infoEpisode}>
           <div className={styles.title}>
             <h3>{title}</h3>
