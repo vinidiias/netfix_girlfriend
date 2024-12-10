@@ -10,6 +10,7 @@ import foto6 from '../../img/foto6.jpeg'
 import foto7 from '../../img/foto7.jpeg'
 import foto8 from '../../img/foto8.jpeg'
 import foto9 from '../../img/foto9.jpeg'
+import foto10 from '../../img/foto10.jpeg'
 import Header from '../layout/Header';
 import ContentHeader from '../layout/ContentHeader';
 import Episode from '../episode/Episode';
@@ -75,28 +76,28 @@ const Movie = () => {
       title: "7 mês",
       duration: "30 min",
       description:
-        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "Mês muito bom, saímos bastante juntos, jóiamos e tudo mais. Te amo <3...",
     },
     {
       imgPath: foto8,
       title: "8 mês",
       duration: "30 min",
       description:
-        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "Te levei pra conhecer o sudacas bar pra julgarmos e foi legal e estávamos bem felizes pelo meu estágio e por comprarmos nossa primeira viagem juntos. Te amo de novo",
     },
     {
       imgPath: foto9,
       title: "9 mês",
       duration: "30 min",
       description:
-        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "Pouco tenso mas sempre unidos do jeito que somos. Nos divertimos na cachu também. Te amo minha vida",
     },
     {
-      imgPath: "../img/foto1.jpeg",
+      imgPath: foto10,
       title: "10 mês",
       duration: "30 min",
       description:
-        "atione, maiores tenetur, consequatur ducimus veniam minima temporibus similique neque? Explicabo, inventore delectus",
+        "Estamos aqui hoje completando 10 meses juntos e quero que saiba que sempre te amarei. Obrigado por ser essa pessoa maravilhosa comigo, você me fala um homem muito mais feliz e amado. Te amo muito muito muito my lover",
     }
   ]
   
